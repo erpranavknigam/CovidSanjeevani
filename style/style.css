@@ -5,3 +5,7 @@
 #about-bg {
     background-image: image("/images/imgbg.jpg");
 }
+
+.card img{
+    object-fit: contain;
+}
