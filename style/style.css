@@ -6,23 +6,34 @@
     background-image: image("/images/imgbg.jpg");
 }
 
-.card img{
+.panel-title {
+    text-align: center;
+    font-size: 30px;
+    background-image: url(/images/imgbg.jpg);
+    color: #F93154;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.card img {
     object-fit: contain;
 }
 
-.card-body a{
+.card-body a {
     color: black;
     text-decoration: none;
 }
 
-.card-body a h5{
-    border: 1px solid gray;
-    background-color: burlywood;
+.card-body a h5 {
+    border: 1px solid white;
+    background-color: #39C0ED;
+    color: white;
+    padding: 5px;
     border-radius: 50px 50px;
 }
 
-.card-body a h5:hover{
-    border: 1px solid brown;
-    background-color: blanchedalmond;
+.card-body a h5:hover {
+    border: 1px solid white;
+    background-color: #868e96;
     transition: 0.3s ease;
 }
