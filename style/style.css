@@ -37,3 +37,13 @@
     background-color: #868e96;
     transition: 0.3s ease;
 }
+
+.lheightdiv {
+    line-height: 50px;
+    text-align: center;
+}
+
+.heightdiv {
+    text-align: center;
+    vertical-align: middle;
+}
