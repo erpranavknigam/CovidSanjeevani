@@ -6,23 +6,33 @@
     background-image: image("/images/imgbg.jpg");
 }
 
-.card img{
+.card img {
     object-fit: contain;
 }
 
-.card-body a{
+.card-body a {
     color: black;
     text-decoration: none;
 }
 
-.card-body a h5{
+.card-body a h5 {
     border: 1px solid gray;
     background-color: burlywood;
     border-radius: 50px 50px;
 }
 
-.card-body a h5:hover{
+.card-body a h5:hover {
     border: 1px solid brown;
     background-color: blanchedalmond;
     transition: 0.3s ease;
+}
+
+.lheightdiv {
+    line-height: 50px;
+    text-align: center;
+}
+
+.heightdiv {
+    text-align: center;
+    vertical-align: middle;
 }
